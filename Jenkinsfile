@@ -22,5 +22,10 @@ pipeline {
                         echo "Deploying in Production Area"
                   }
             }
+			stage('Create Docker Iamge') {
+                  steps {
+                        echo "Creating the Docker image"
+                  }
+            }
       }
 }
