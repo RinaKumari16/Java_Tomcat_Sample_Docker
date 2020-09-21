@@ -3,13 +3,13 @@ pipeline {
       stages {
             stage('Init') {
                   steps {
-                        echo 'Hi, this is Anshul from LevelUp360'
+                        echo 'Hi, this is Rina'
                         echo 'We are Starting the Testing'
                   }
             }
             stage('Build') {
                   steps {
-                        echo 'Building Sample Maven Project'
+                        echo 'Building Sample  Project'
                   }
             }
             stage('Deploy') {
@@ -29,3 +29,10 @@ pipeline {
             }
       }
 }
+
+
+
+
+
+
+
